@@ -82,47 +82,47 @@ Outro problema com essa abordagem é que, em geral, é fácil verificar se o có
 
 Requisito de usuário são declarações, em uma linguagem natural somada a diagramas, dos serviços que se espera que o sistema forneça para os usuários e das limitações sob as quais ele deve operar. Esses requisitos podem variar de declarações amplas das características necessárias do sistema até descrições precisas e detalhadas da sua funcionalidade.
 
-##### (Montagem simples da rede social conforme o tema)
+### (Montagem simples da rede social conforme o tema) URL para acesso
 
 ![Url](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Url.png)
 
-### Então logo em seguida teremos ao clicar ENTER, a visualização da página (Tema escolhido)
+### 1) Então logo em seguida teremos ao clicar ENTER, a visualização da página (Tema escolhido)
 
 ![ML](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Page%20ML.png)
 
-### Agora o sistema pedirá o Login e senha do usuário
+### 2) Informe Login e senha para cadastrar (Requisitos: E-mail e 18 anos, caso contrário será negado cadastro)
 
 ![Login](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Login.png)
 
-### Após login efetuado, temos a parte central do perfil
+### 3) Após login efetuado, temos a parte central do perfil
 
 ![InsidePage](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Inside.png)
 
-### Temos então nossa parte para fazer anúncios e lançar Feeds
+### 4) Temos então nossa parte para fazer anúncios e lançar Feeds
 
 ![Anuncio](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/PageVendasAnuncios.png)
 
-### Efetuando busca com nome de produto, teremos acesso a uma lista de produtos
+### 5) Efetuando busca com nome de produto, teremos acesso a uma lista de produtos
 
 ![ListaProdutos](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Lista%20de%20produtos.png)
 
-### Para perguntar algo sobre o produto, basta acessar o campo CHAT para fazer perguntas ao vendedor
+### 6) Para perguntar algo sobre o produto, basta acessar o campo CHAT para fazer perguntas ao vendedor
 
 ![Chat](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Chat.png)
 
-### Concluindo sua decisão e caso deseja comprar o produto, basta selecionar a opção de pagamento e verá um resumo do que esta comprando!
+### 7) Concluindo sua decisão e caso deseja comprar o produto, basta selecionar a opção de pagamento e verá um resumo do que esta comprando!
 
 ![EfetuarPagamento](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/EfetuarCompra.png)
 
-### Sistema pergunta como deseja pagar e apresenta opções
+### 8) Sistema pergunta como deseja pagar e apresenta opções
 
 ![ComoPagar](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/ComoPagar.png)
 
-### Opções aceitáveis de pagamento
+### 9) Opções aceitáveis de pagamento
 
 ![PagarOption](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/ComoPagar1.png)
 
-### Pagamento Efetuado, cliente aguarda e no prazo determinado recebe seu produto!
+### 10) Pagamento Efetuado, cliente recebe código de rastreio e aguarda e no prazo determinado recebe seu produto!
 
 ![RecebeProduto](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/RecebeuProduto.png)
 
