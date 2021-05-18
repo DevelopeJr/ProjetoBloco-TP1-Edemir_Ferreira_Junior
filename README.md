@@ -1,5 +1,5 @@
 # ProjetoBloco-TP1-Edemir_Ferreira_Junior
-### (Principais pontos do CMMI, nível de maturidade - 1)
+### (Principais pontos do CMMI, nível de maturidade - 1 a 5)
 ##### Representações do Modelo CMMI
 
 O CMMI possui duas representações: a estagiada e a contínua. A representação
@@ -50,12 +50,83 @@ Neste quarto nível, os objetivos específicos e genéricos atribuídos para os 
 É o nível mais alto de maturidade CMMI, onde uma organização atingi todos os objetivos específicos atribuídos para os níveis de maturidade 2, 3, 4 e 5. Os processos são continuamente aperfeiçoados, considerando que a variação de um processo esta relacionada às interações, entre seus componentes tendo como foco principal a melhoria contínua do processo.
 
 
+### (Uso do modelo em cascata)
 
+No modelo em cascata original de Royce, as seguintes fases são seguidas em perfeita ordem:
 
+Requerimento
+Projeto
+Implementação
+Integração
+Teste e depuração (verificação)
+Manutenção de software
 
+![Waterfall](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Waterfall.png)
 
+Para seguir um modelo em cascata, o progresso de uma fase para a próxima se dá de uma forma puramente sequencial. Por exemplo, inicialmente completa-se a especificação de requisitos — elaborando um conjunto rígido de requisitos do software (Por exemplo, os requisitos para minha rede social do TP1 (MercadoLivre e Clientes) 
+devem permitir acesso através de Login e Senha, preenchimento de perfil do cliente, busca de produtos, chat para perguntas sobre o produto e campo para efetuar a compra, embora as especificações dos requisitos reais sejam mais detalhados, em um procedimento para projeto. Como o software sempre faz parte de um sistema (ou negócio) maior, o trabalho começa pelo estabelecimento de requisitos para todos os elementos do sistema e depois pela alocação de algum subconjunto desses requisitos para o software. Essa visão de sistema é essencial quando o software precisa interagir com outros elementos, tais como hardware, pessoas e bases de dados.
 
+### (Problemas)
 
+Entre os problemas às vezes encontrados quando se aplica o modelo cascata, temos:
+
+1. Projetos reais raramente seguem o fluxo sequencial proposto pelo modelo. Embora o modelo linear possa conter iterações, ele o faz indiretamente. Como consequência, mudanças podem provocar confusão à medida que a equipe de projeto prossegue.
+
+2. Frequentemente, é difícil para o cliente estabelecer explicitamente todas as necessidades. O modelo cascata exige isso e tem dificuldade para adequar a incerteza natural existente no início de muitos projetos.
+
+3. O cliente deve ter paciência. Uma versão operacional do(s) programa(s) não estará disponível antes de estarmos próximos ao final do projeto. Um erro grave, se não detectado até o programa operacional ser revisto, pode ser desastroso.
+
+Outro problema com essa abordagem é que, em geral, é fácil verificar se o código funciona direito, mas não é tão fácil verificar se os modelos e projetos estão bem escritos. Para ser efetivamente viável, esse tipo de ciclo de vida necessitaria de ferramentas de análise automatizada de diagramas e documentos para verificar sua exatidão, mas tais ferramentas ainda são bastante limitadas.
+
+### (Requisitos de usuário)
+
+Requisito de usuário são declarações, em uma linguagem natural somada a diagramas, dos serviços que se espera que o sistema forneça para os usuários e das limitações sob as quais ele deve operar. Esses requisitos podem variar de declarações amplas das características necessárias do sistema até descrições precisas e detalhadas da sua funcionalidade.
+
+##### (Montagem simples da rede social conforme o tema)
+
+![Url](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Url.png)
+
+### Então logo em seguida teremos ao clicar ENTER, a visualização da página (Tema escolhido)
+
+![ML](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Page%20ML.png)
+
+### Agora o sistema pedirá o Login e senha do usuário
+
+![Login](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Login.png)
+
+### Após login efetuado, temos a parte central do perfil
+
+![InsidePage](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Inside.png)
+
+### Temos então nossa parte para fazer anúncios e lançar Feeds
+
+![Anuncio](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/PageVendasAnuncios.png)
+
+### Efetuando busca com nome de produto, teremos acesso a uma lista de produtos
+
+![ListaProdutos](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Lista%20de%20produtos.png)
+
+### Para perguntar algo sobre o produto, basta acessar o campo CHAT para fazer perguntas ao vendedor
+
+![Chat](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/Chat.png)
+
+### Concluindo sua decisão e caso deseja comprar o produto, basta selecionar a opção de pagamento e verá um resumo do que esta comprando!
+
+![EfetuarPagamento](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/EfetuarCompra.png)
+
+### Sistema pergunta como deseja pagar e apresenta opções
+
+![ComoPagar](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/ComoPagar.png)
+
+### Opções aceitáveis de pagamento
+
+![PagarOption](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/ComoPagar1.png)
+
+### Pagamento Efetuado, cliente aguarda e no prazo determinado recebe seu produto!
+
+![RecebeProduto](https://github.com/DevelopeJr/MeuPrimeiroRespositorio/blob/main/RecebeuProduto.png)
+
+## FIM
 
 
 
